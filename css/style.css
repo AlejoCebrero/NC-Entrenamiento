@@ -9,7 +9,7 @@
     margin:0; padding: 0;
     box-sizing: border-box;
     transition: all .2s linear;
-    text-transform: capitalize;
+    /*text-transform: capitalize;*/
     outline: none;
     text-decoration: none;
 }
@@ -96,6 +96,11 @@ header .logo{
 
 header .logo span{
     color:var(--orange);
+}
+
+header{
+    background-color: #333;
+    padding: 10px;
 }
 
 header .navbar ul{
@@ -369,6 +374,11 @@ header.header-active .navbar a{
     margin: 5vh 5vw;
     width: 130px;
     padding: 3px;
+}
+
+.plan .box-container .box-0 .title{
+    background:#fff;
+    color: #333;
 }
 
 .plan .box-container .box-1 .title{
